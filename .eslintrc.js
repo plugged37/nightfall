@@ -12,13 +12,11 @@ module.exports = {
       'anonymous': 'never',
       'named': 'never'
     }],
-    'radix': 'off',
     'func-names': ['error', 'as-needed'],
     'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
     'comma-dangle': ['error', 'always-multiline'],
     'semi': 'error',
     'no-extra-semi': 'error',
     'indent': ['error', 2, { "SwitchCase": 1 }],
-    'func-names': ['error', 'as-needed']
   },
 };
